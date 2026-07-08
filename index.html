@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Wedding Of Ayu & Ruis</title>
+
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+  <!-- CSS KAMU -->
+  <link rel="stylesheet" href="style.css">
+
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Aos -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<script src="gallery-scroll.js"></script>
+
+<script src="scroll-zoom.js"></script>
+
+<script src="gift.js"></script>
+
+</head>
+
+<body>
+
+
+<section class="cover" id="tampilanAwal">
+
+  <!-- VIDEO -->
+  <video 
+    id="coverVideo"
+    playsinline
+    webkit-playsinline
+    preload="auto"
+    poster="assets/gallery/cover.jpeg"
+  >
+    <source src="assets/video/video.mp4" type="video/mp4">
+  </video>
+
+  <!-- OVERLAY -->
+  <div class="overlay"></div>
+
+  <!-- CONTENT -->
+  <div class="cover-content">
+
+    <p class="subtitle zoom1">
+      The Wedding Of
+    </p>
+
+    <h1 class="title zoom2">
+      Rian & Windi
+    </h1>
+
+    <div class="guest zoom3">
+      <p>Kepada Yth</p>
+      <h5 id="namaTamu">Nama Tamu</h5>
+    </div>
+
+    <!-- BUTTON -->
+    <button class="open-btn zoom4" id="btnBuka">
+      <i class="bi bi-envelope-open"></i>
+      Buka Undangan
+    </button>
+
+  </div>
+
+  <div class="ending-overlay" id="tampilanAkhir">
+
+    <!-- Overlay PNG buatan kamu -->
+    <img src="assets/gallery/overlay.png" class="ending-frame-img" alt="">
+
+    <div class="ending-text">
+
+        <p class="ending-subtitle">
+            The Wedding Of
+        </p>
+
+        <h2 class="ending-name">
+            Rian
+            <span>&</span>
+            Windi
+        </h2>
+
+        <p class="ending-date">
+            Save The Date
+        </p>
+
+        <p class="ending-day">
+            Minggu, 20 Desember 2026
+        </p>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop>
+  <source src="assets/musik/paulyudin wedding.mp3" type="audio/mp3">
+</audio>
+
+
+<!-- SECTION AYAT -->
+<section class="ayat-section">
+
+  <!-- BUNGA KIRI -->
+  <img src="assets/gallery/bunga kiri.png" class="ayat-flower ayat-flower-left">
+  <!-- BUNGA KANAN -->
+  <img src="assets/gallery/bunga kanan.png" class="ayat-flower ayat-flower-right">
+
+  <div class="ayat-box">
+
+    <!-- FOTO -->
+    <div class="ayat-photo">
+      <img src="assets/gallery/ayat.jpeg" alt="Prewedding">
+    </div>
+
+    <!-- JUDUL -->
+    <h2>We Found Love</h2>
+
+    <!-- AYAT -->
+    <p class="ayat-text">
+      "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang."
+    </p>
+
+    <h4>QS Ar-Rum : 21</h4>
+
+  </div>
+</section>
+
+
+<!-- SECTION MEMPELAI -->
+<section class="mempelai">
+
+  <!-- FLOWER ATAS -->
+  <img src="assets/gallery/bunga atas mempelai.png" class="flower flower-top" alt="">
+
+  <!-- FLOWER BAWAH -->
+  <img src="assets/gallery/bunga bawah mempelai.png" class="flower flower-bottom" alt="">
+
+
+  <div class="mempelai-content">
+
+    <span class="subtitle-mempelai">
+      GROOM & BRIDE
+    </span>
+
+    <p class="desc">
+      Dengan memohon rahmat dan ridho Allah SWT, Kami bermaksud menyelenggarakan acara pernikahan putra-putri kami
+    </p>
+
+
+    <!-- MEMPELAI PRIA -->
+    <div class="card-mempelai">
+
+      <div class="foto-wrap">
+        <img src="fotopria.jpg" alt="">
+      </div>
+
+      <h3>Nama Pria</h3>
+
+      <p>
+        Anak pertama dari <br>
+        Bapak Lorem & Ibu Lorem
+      </p>
+
+      <a href="#">
+        <i class="bi bi-instagram"></i>
+        @instagrampria
+      </a>
+
+    </div>
+
+
+    <div class="simbol">&</div>
+
+
+    <!-- MEMPELAI WANITA -->
+    <div class="card-mempelai">
+
+      <div class="foto-wrap">
+        <img src="fotowanita.jpg" alt="">
+      </div>
+
+      <h3>Nama Wanita</h3>
+
+      <p>
+        Anak pertama dari <br>
+        Bapak Lorem & Ibu Lorem
+      </p>
+
+      <a href="#">
+        <i class="bi bi-instagram"></i>
+        @instagramwanita
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- COUNTDOWN SECTION -->
+<section class="countdown-section">
+
+  <!-- BACKGROUND DARI KAMU -->
+  <img src="assets/gallery/countdown.jpeg" class="countdown-bg" alt="background">
+
+  <!-- OVERLAY -->
+  <div class="countdown-overlay"></div>
+
+  <!-- CONTENT -->
+  <div class="countdown-content">
+
+    <p class="mini-text">Save the Date</p>
+
+    <h2 class="title">
+      Countdown
+    </h2>
+
+    <p class="subtitle">
+      Hitung Mundur Hari Bahagia Kami
+    </p>
+
+    <!-- COUNTDOWN -->
+    <div class="countdown-box">
+
+      <div class="time">
+        <span id="days">00</span>
+        <small>Hari</small>
+      </div>
+
+      <div class="time">
+        <span id="hours">00</span>
+        <small>Jam</small>
+      </div>
+
+      <div class="time">
+        <span id="minutes">00</span>
+        <small>Menit</small>
+      </div>
+
+      <div class="time">
+        <span id="seconds">00</span>
+        <small>Detik</small>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     AKAD & RESEPSI SECTION
+========================= -->
+
+<section class="event-section">
+
+  <!-- AKAD -->
+  <div class="event-card fade-up">
+
+    <!-- background lonjong dari kamu -->
+    <img src="assets/gallery/akad resepsi.jpeg" class="event-bg" alt="akad">
+
+    <div class="event-overlay"></div>
+
+    <div class="event-content">
+
+      <h2>Akad</h2>
+
+      <p class="event-date">
+        Minggu, 12 Desember 20XX
+      </p>
+
+      <p class="event-time">
+        08.00 WIB s.d Selesai
+      </p>
+
+      <div class="event-icon">
+        <i class="bi bi-geo-alt-fill"></i>
+      </div>
+
+      <h3>Kediaman Mempelai Wanita</h3>
+
+      <p class="event-address">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      </p>
+
+      <a href="#" class="maps-btn">
+        <i class="bi bi-geo-alt-fill"></i>
+        Google Maps
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- RESEPSI -->
+  <div class="event-card fade-up">
+
+    <!-- background lonjong dari kamu -->
+    <img src="assets/gallery/akad resepsi.jpeg" class="event-bg" alt="resepsi">
+
+    <div class="event-overlay"></div>
+
+    <div class="event-content">
+
+      <h2>Resepsi</h2>
+
+      <p class="event-date">
+        Minggu, 12 Desember 20XX
+      </p>
+
+      <p class="event-time">
+        10.00 WIB s.d Selesai
+      </p>
+
+      <div class="event-icon">
+        <i class="bi bi-geo-alt-fill"></i>
+      </div>
+
+      <h3>Kediaman Mempelai Wanita</h3>
+
+      <p class="event-address">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      </p>
+
+      <a href="#" class="maps-btn">
+        <i class="bi bi-geo-alt-fill"></i>
+        Google Maps
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+LOVE STORY SECTION
+========================= -->
+<section class="love-story">
+
+<!-- BUNGA ATAS -->
+
+  <img src="assets/gallery/story atas.png" class="love-flower top">
+
+  <div class="love-container">
+
+    <span class="love-subtitle">Our Journey</span>
+
+    <h2 class="love-title">Love Story</h2>
+
+    <div class="love-photo reveal">
+      <img src="assets/gallery/foto love story.jpeg" alt="">
+    </div>
+
+    <div class="story-item reveal">
+      <h3>Awal Bertemu</h3>
+      <p>
+        Awal pertemuan yang sederhana berubah menjadi kisah yang penuh makna.
+        Dari obrolan kecil hingga tumbuh rasa yang tak terduga.
+      </p>
+    </div>
+
+    <div class="story-item reveal">
+      <h3>Lamaran</h3>
+      <p>
+        Seiring waktu kami belajar memahami satu sama lain,
+        saling mendukung dan tumbuh bersama hingga memutuskan
+        melangkah ke jenjang yang lebih serius.
+      </p>
+    </div>
+
+    <div class="story-item reveal">
+      <h3>Menikah</h3>
+      <p>
+        Dengan penuh rasa syukur kami memutuskan mengikat janji
+        suci pernikahan dan memulai perjalanan hidup bersama.
+      </p>
+    </div>
+<!-- BUNGA BAWAH -->
+
+  <img src="assets/gallery/story bawah.png" class="love-flower bottom">
+
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+OUR GALLERY
+========================= -->
+
+<section class="gallery-section">
+
+  <div class="gallery-container">
+
+    <span class="gallery-subtitle">Best Moments</span>
+
+    <!-- VIDEO -->
+    <div class="gallery-video reveal">
+
+      <!-- GANTI LINK YOUTUBE -->
+      <iframe
+        src="https://www.youtube.com/embed/ScMzIvxBSi4"
+        title="Wedding Video"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+    <!-- GRID FOTO -->
+    <div class="gallery-grid">
+
+      <div class="gallery-item big reveal">
+        <img src="assets/gallery/foto 1.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 2.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 3.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 4.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item wide reveal">
+        <img src="assets/gallery/foto 5.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 6.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 7.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 8.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 9.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item wide reveal">
+        <img src="assets/gallery/foto 10.jpeg" alt="">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+WEDDING GIFT
+========================= -->
+
+<section class="gift-section">
+
+  <!-- BACKGROUND DARI KAMU -->
+  <img src="assets/gallery/gift.jpeg" class="gift-bg" alt="">
+
+  <div class="gift-container">
+
+    <span class="gift-subtitle">Wedding Gift</span>
+
+    <p class="gift-text">
+      Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.
+      Namun jika memberi adalah ungkapan tanda kasih Anda,
+      Anda dapat memberi kado secara cashless.
+    </p>
+
+    <!-- BUTTON -->
+    <button class="gift-btn" id="openGift">
+      <i class="fa-solid fa-gift"></i>
+      Klik Disini
+    </button>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+POPUP GIFT
+========================= -->
+
+<div class="gift-popup" id="giftPopup">
+
+  <div class="gift-popup-content">
+
+    <!-- CLOSE -->
+    <button class="close-popup" id="closeGift">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <h2>Wedding Gift</h2>
+
+    <!-- CARD 1 -->
+    <div class="bank-card">
+
+      <img src="bri.png" class="bank-logo" alt="">
+
+      <div class="bank-number" id="rekening1">
+        09887465934
+      </div>
+
+      <p class="bank-name">
+        a.n Ayu Yuningsih
+      </p>
+
+      <button class="copy-btn"
+        onclick="copyRek('rekening1')">
+        Copy
+      </button>
+
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="bank-card">
+
+      <img src="bca.png" class="bank-logo" alt="">
+
+      <div class="bank-number" id="rekening2">
+        09887465934
+      </div>
+
+      <p class="bank-name">
+        a.n Ayu Yuningsih
+      </p>
+
+      <button class="copy-btn"
+        onclick="copyRek('rekening2')">
+        Copy
+      </button>
+
+    </div>
+
+    <!-- ALAMAT -->
+    <div class="address-card">
+
+      <div class="gift-icon">
+        <i class="fa-solid fa-gift"></i>
+      </div>
+
+      <h3>Alamat Rumah</h3>
+
+      <p>
+        Jl. Dipatiukur Kota Bandung Jawa Barat
+      </p>
+
+      <button class="copy-btn"
+        onclick="copyAlamat()">
+        Copy
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+</section>
+
+<!-- =========================
+BEST WISHES
+========================= -->
+
+<section class="wish-section">
+
+  <!-- OVERLAY -->
+  <div class="wish-overlay"></div>
+
+  <div class="wish-container">
+
+    <span class="wish-subtitle">Best Wishes</span>
+
+    <p class="wish-text">
+      Sampaikan doa dan ucapan terbaik Anda
+    </p>
+
+    <!-- FORM -->
+    <form id="wishForm" class="wish-form">
+
+      <input
+        type="text"
+        id="nama"
+        placeholder="Isikan Nama"
+        required
+      >
+
+      <textarea
+        id="ucapan"
+        placeholder="Tuliskan Pesan dan Doa"
+        required
+      ></textarea>
+
+      <button type="submit">
+        Kirim Ucapan
+      </button>
+
+    </form>
+
+    <!-- LIST UCAPAN -->
+    <div class="wish-list" id="wishList">
+
+      <!-- UCAPAN AKAN MASUK KE SINI -->
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SECTION PENUTUP -->
+<section class="closing">
+
+  <div class="closing-content">
+
+    <h2>Kami yang berbahagia</h2>
+
+    <h3>Rian & Windi</h3>
+
+  </div>
+
+</section>
+ 
+<!-- POPUP GALLERY -->
+<div class="gallery-popup" id="galleryPopup">
+
+  <span id="closeGallery" class="close-popup">&times;</span>
+
+  <span class="prev-photo">&#10094;</span>
+
+  <img src="" id="popupImg">
+
+  <span class="next-photo">&#10095;</span>
+
+</div>
+
+
+
+<!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS KAMU -->
+  <script src="script.js"></script>
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 900,
+    once: true
+  });
+</script>
+<script src="rsvp.js"></script>
+</body>
+</html>
